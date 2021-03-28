@@ -1,0 +1,125 @@
+
+html, body {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #303030;
+}
+
+.mydiv {
+
+    position: relative;
+    /*background: url("https://i.ibb.co/xf97jH3/IMG-6780.jpg") no-repeat center;*/
+    /*background: url("https://i.ibb.co/tB347tw/IMG-6919.jpg") no-repeat center;*/
+    background: url("https://i.ibb.co/YkdGtX0/IMG-5504.jpg") no-repeat center;
+    /*background: url("https://i.ibb.co/NVZVRL3/IMG-5977.jpg") no-repeat center;*/
+    image-rendering: -webkit-optimize-contrast;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 260px;
+    overflow: hidden;
+}
+
+.container {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    font-size: 47px;
+    font-weight: lighter;
+}
+
+hr {
+
+    border-top: 2px solid black;
+    width: 60%;
+    margin-top: 2.5%;
+}
+
+p {
+
+    margin-top: 2.5%;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+.icons ul {
+
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.icons ul li {
+
+    list-style: none;
+    margin: 0 10px;
+}
+
+.icons ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+
+.icons ul li a {
+
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.icons ul li a:hover {
+
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+.icons ul li:nth-child(1) a:hover {
+
+    background-color: #0077B5;
+}
+
+.icons ul li:nth-child(2) a:hover {
+
+    background-color: #0ef034
+}
+
+.icons ul li:nth-child(3) a:hover {
+
+    background-color: rgb(255, 147, 6);
+}
+
+.footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 8px;
+    font-weight: lighter;
+}
